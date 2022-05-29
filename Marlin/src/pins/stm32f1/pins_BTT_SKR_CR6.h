@@ -158,6 +158,13 @@
 #endif
 
 //
+// LASER
+///
+
+#define LASER_PWM_PIN    PC7
+#define LASER_ENABLE_PIN PC9
+
+//
 // SD Card
 //
 

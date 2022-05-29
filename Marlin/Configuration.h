@@ -2973,3 +2973,10 @@
 
 // Disable servo with M282 to reduce power consumption, noise, and heat when not in use
 //#define SERVO_DETACH_GCODE
+
+
+//
+// LASER
+
+ #define SPINDLE_LASER_ENA_PIN      LASER_ENABLE_PIN
+ #define SPINDLE_LASER_PWM_PIN      LASER_PWM_PIN
