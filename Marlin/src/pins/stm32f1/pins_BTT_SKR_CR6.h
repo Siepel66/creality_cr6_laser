@@ -110,12 +110,12 @@
 //
 
 #define HEATER_0_PIN                        PC8   // HEATER1
-#define HEATER_BED_PIN                      PC9   // HOT BED
+#define HEATER_BED_PIN                      PA8   // HOT BED
 
 #define FAN_PIN                             PC6   // FAN
 #define FAN_SOFT_PWM
 
-#define CONTROLLER_FAN_PIN                  PC7
+#define CONTROLLER_FAN_PIN                  PA13
 
 //
 // LCD / Controller
@@ -181,12 +181,12 @@
 //
 // Misc. Functions
 //
-#define CASE_LIGHT_PIN                      PA13
+//#define CASE_LIGHT_PIN                      PA13
 
-#ifndef NEOPIXEL_PIN
+/*#ifndef NEOPIXEL_PIN
   #define NEOPIXEL_PIN                      PA8
 #endif
-
+*/
 /*#define SUICIDE_PIN                         PC13
 #ifndef SUICIDE_PIN_STATE
   #define SUICIDE_PIN_STATE                  LOW
