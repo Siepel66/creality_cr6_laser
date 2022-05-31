@@ -64,6 +64,7 @@
 #define X_STOP_PIN                          PC13 //PC0
 #define Y_STOP_PIN                          PC2
 #define Z_STOP_PIN                          PC1  // Endstop or Probe
+#define Z_PROBE_PIN                         PC3
 
 #define FIL_RUNOUT_PIN                      PC15
 
@@ -103,7 +104,7 @@
 // Temperature Sensors
 //
 #define TEMP_0_PIN                          PA0   // TH1
-#define TEMP_BED_PIN                        PC3   // TB1
+#define TEMP_BED_PIN                        PA1 //PC3   // TB1
 
 //
 // Heaters / Fans
