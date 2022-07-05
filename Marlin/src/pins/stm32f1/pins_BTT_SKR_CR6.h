@@ -113,7 +113,7 @@
 #define HEATER_0_PIN                        PC8   // HEATER1
 #define HEATER_BED_PIN                      PA8   // HOT BED
 
-#define FAN_PIN                             PC6   // FAN
+#define FAN_PIN                              PB7  // FAN
 #define FAN_SOFT_PWM
 
 #define CONTROLLER_FAN_PIN                  PA13
@@ -162,8 +162,8 @@
 // LASER
 ///
 
-#define LASER_PWM_PIN    PC7
-#define LASER_ENABLE_PIN PC9
+#define LASER_PWM_PIN    PC7  //PC7
+#define LASER_ENABLE_PIN PC9  //PC9
 
 //
 // SD Card
